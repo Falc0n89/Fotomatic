@@ -6,8 +6,12 @@ html {
 }
 
 .main-content {
+  width: 100%;
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+  background-image: url(/resources/images/banner-landingpage.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .center {
@@ -27,6 +31,7 @@ html {
 .image-container img {
   display: block;
 }
+
 
 @media only screen and (max-width: 760px) {
   .main-content {
@@ -120,6 +125,7 @@ header .mobile {
 }
 
 #sign-up-cta {
+  margin: auto;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
